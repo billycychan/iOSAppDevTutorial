@@ -20,6 +20,12 @@
 		47E98ACE2AFCBF0500D0D37A /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98ACD2AFCBF0500D0D37A /* DetailEditView.swift */; };
 		47E98AD02AFCC19600D0D37A /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98ACF2AFCC19600D0D37A /* ThemeView.swift */; };
 		47E98AD22AFCC21C00D0D37A /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AD12AFCC21C00D0D37A /* ThemePicker.swift */; };
+		47E98AD42AFCD9F200D0D37A /* MeetingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AD32AFCD9F200D0D37A /* MeetingHeaderView.swift */; };
+		47E98AD62AFCDB2900D0D37A /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AD52AFCDB2900D0D37A /* ScrumProgressViewStyle.swift */; };
+		47E98AD82AFCDBFF00D0D37A /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AD72AFCDBFF00D0D37A /* ScrumTimer.swift */; };
+		47E98ADA2AFCDCD000D0D37A /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AD92AFCDCD000D0D37A /* MeetingFooterView.swift */; };
+		47E98ADC2AFCDE9700D0D37A /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98ADB2AFCDE9700D0D37A /* AVPlayer+Ding.swift */; };
+		47E98ADF2AFCDF0700D0D37A /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 47E98ADE2AFCDF0700D0D37A /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,12 @@
 		47E98ACD2AFCBF0500D0D37A /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		47E98ACF2AFCC19600D0D37A /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		47E98AD12AFCC21C00D0D37A /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
+		47E98AD32AFCD9F200D0D37A /* MeetingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingHeaderView.swift; sourceTree = "<group>"; };
+		47E98AD52AFCDB2900D0D37A /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
+		47E98AD72AFCDBFF00D0D37A /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		47E98AD92AFCDCD000D0D37A /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
+		47E98ADB2AFCDE9700D0D37A /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
+		47E98ADE2AFCDF0700D0D37A /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 				47E98AC82AFCB41F00D0D37A /* Base */,
 				47E98AC72AFCB41700D0D37A /* Views */,
 				47E98ABE2AFCAEDA00D0D37A /* Models */,
+				47E98ADD2AFCDEF300D0D37A /* Resources */,
 				47E98AB02AFCAD5B00D0D37A /* ScrumdingerApp.swift */,
 				47E98AB42AFCAD5C00D0D37A /* Assets.xcassets */,
 				47E98AB62AFCAD5C00D0D37A /* Preview Content */,
@@ -92,6 +105,8 @@
 			children = (
 				47E98ABF2AFCAEF800D0D37A /* Theme.swift */,
 				47E98AC12AFCAF3A00D0D37A /* DailyScrum.swift */,
+				47E98AD72AFCDBFF00D0D37A /* ScrumTimer.swift */,
+				47E98ADB2AFCDE9700D0D37A /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -99,6 +114,8 @@
 		47E98AC72AFCB41700D0D37A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				47E98AD32AFCD9F200D0D37A /* MeetingHeaderView.swift */,
+				47E98AD92AFCDCD000D0D37A /* MeetingFooterView.swift */,
 				47E98AB22AFCAD5B00D0D37A /* MeetingView.swift */,
 				47E98AC32AFCAF6000D0D37A /* CardView.swift */,
 				47E98AC92AFCB43100D0D37A /* ScrumsView.swift */,
@@ -106,6 +123,7 @@
 				47E98ACD2AFCBF0500D0D37A /* DetailEditView.swift */,
 				47E98ACF2AFCC19600D0D37A /* ThemeView.swift */,
 				47E98AD12AFCC21C00D0D37A /* ThemePicker.swift */,
+				47E98AD52AFCDB2900D0D37A /* ScrumProgressViewStyle.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +134,14 @@
 				47E98AC52AFCB1A000D0D37A /* TrailingIconLabelStyle.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		47E98ADD2AFCDEF300D0D37A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47E98ADE2AFCDF0700D0D37A /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E98ADF2AFCDF0700D0D37A /* ding.wav in Resources */,
 				47E98AB82AFCAD5C00D0D37A /* Preview Assets.xcassets in Resources */,
 				47E98AB52AFCAD5C00D0D37A /* Assets.xcassets in Resources */,
 			);
@@ -189,8 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E98AD22AFCC21C00D0D37A /* ThemePicker.swift in Sources */,
+				47E98AD62AFCDB2900D0D37A /* ScrumProgressViewStyle.swift in Sources */,
+				47E98ADA2AFCDCD000D0D37A /* MeetingFooterView.swift in Sources */,
+				47E98AD82AFCDBFF00D0D37A /* ScrumTimer.swift in Sources */,
 				47E98AC22AFCAF3A00D0D37A /* DailyScrum.swift in Sources */,
 				47E98ACC2AFCB8BF00D0D37A /* DetailView.swift in Sources */,
+				47E98AD42AFCD9F200D0D37A /* MeetingHeaderView.swift in Sources */,
 				47E98ACE2AFCBF0500D0D37A /* DetailEditView.swift in Sources */,
 				47E98ACA2AFCB43100D0D37A /* ScrumsView.swift in Sources */,
 				47E98AC62AFCB1A000D0D37A /* TrailingIconLabelStyle.swift in Sources */,
@@ -199,6 +230,7 @@
 				47E98AB12AFCAD5B00D0D37A /* ScrumdingerApp.swift in Sources */,
 				47E98AD02AFCC19600D0D37A /* ThemeView.swift in Sources */,
 				47E98AC42AFCAF6000D0D37A /* CardView.swift in Sources */,
+				47E98ADC2AFCDE9700D0D37A /* AVPlayer+Ding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
