@@ -9,13 +9,13 @@ import SwiftUI
 
 struct ScrumsView: View {
     
-    let scrums: [DailyScrum]
+    @Binding var scrums: [DailyScrum]
     
     var body: some View {
         NavigationStack {
-            List(scrums, id: \.title) { scrum in
+            List($scrums, id: \.title) { $scrum in
                 NavigationLink(destination: {
-                    DetailView(scrum: scrum)
+                    DetailView(scrum: $scrum)
                 }) {
                     CardView(scrum: scrum)
                 }
@@ -32,5 +32,5 @@ struct ScrumsView: View {
 }
 
 #Preview {
-    ScrumsView(scrums: DailyScrum.sampleData)
+    ScrumsView(scrums: .constant(DailyScrum.sampleData))
 }
