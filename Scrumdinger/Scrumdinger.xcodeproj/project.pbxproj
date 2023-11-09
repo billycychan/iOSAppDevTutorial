@@ -16,6 +16,7 @@
 		47E98AC42AFCAF6000D0D37A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AC32AFCAF6000D0D37A /* CardView.swift */; };
 		47E98AC62AFCB1A000D0D37A /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AC52AFCB1A000D0D37A /* TrailingIconLabelStyle.swift */; };
 		47E98ACA2AFCB43100D0D37A /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AC92AFCB43100D0D37A /* ScrumsView.swift */; };
+		47E98ACC2AFCB8BF00D0D37A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98ACB2AFCB8BF00D0D37A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		47E98AC32AFCAF6000D0D37A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		47E98AC52AFCB1A000D0D37A /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		47E98AC92AFCB43100D0D37A /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		47E98ACB2AFCB8BF00D0D37A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				47E98AB22AFCAD5B00D0D37A /* MeetingView.swift */,
 				47E98AC32AFCAF6000D0D37A /* CardView.swift */,
 				47E98AC92AFCB43100D0D37A /* ScrumsView.swift */,
+				47E98ACB2AFCB8BF00D0D37A /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47E98AC22AFCAF3A00D0D37A /* DailyScrum.swift in Sources */,
+				47E98ACC2AFCB8BF00D0D37A /* DetailView.swift in Sources */,
 				47E98ACA2AFCB43100D0D37A /* ScrumsView.swift in Sources */,
 				47E98AC62AFCB1A000D0D37A /* TrailingIconLabelStyle.swift in Sources */,
 				47E98AC02AFCAEF800D0D37A /* Theme.swift in Sources */,
