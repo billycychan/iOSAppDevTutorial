@@ -29,6 +29,7 @@
 		47E98AE12AFCE0AA00D0D37A /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AE02AFCE0AA00D0D37A /* NewScrumSheet.swift */; };
 		47E98AE32AFCE1E900D0D37A /* EditScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AE22AFCE1E900D0D37A /* EditScrumSheet.swift */; };
 		47E98AE52AFCE33F00D0D37A /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AE42AFCE33F00D0D37A /* History.swift */; };
+		47E98AE72AFD853300D0D37A /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E98AE62AFD853300D0D37A /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		47E98AE02AFCE0AA00D0D37A /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 		47E98AE22AFCE1E900D0D37A /* EditScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditScrumSheet.swift; sourceTree = "<group>"; };
 		47E98AE42AFCE33F00D0D37A /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		47E98AE62AFD853300D0D37A /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				47E98AD72AFCDBFF00D0D37A /* ScrumTimer.swift */,
 				47E98ADB2AFCDE9700D0D37A /* AVPlayer+Ding.swift */,
 				47E98AE42AFCE33F00D0D37A /* History.swift */,
+				47E98AE62AFD853300D0D37A /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			files = (
 				47E98AD22AFCC21C00D0D37A /* ThemePicker.swift in Sources */,
 				47E98AD62AFCDB2900D0D37A /* ScrumProgressViewStyle.swift in Sources */,
+				47E98AE72AFD853300D0D37A /* ScrumStore.swift in Sources */,
 				47E98AE52AFCE33F00D0D37A /* History.swift in Sources */,
 				47E98ADA2AFCDCD000D0D37A /* MeetingFooterView.swift in Sources */,
 				47E98AD82AFCDBFF00D0D37A /* ScrumTimer.swift in Sources */,
